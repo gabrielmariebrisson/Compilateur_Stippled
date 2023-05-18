@@ -4,10 +4,10 @@ Ce projet est réalisé dans le cadre du cours de Compilation de la Licence Info
 
 ## Intructions 
 
-1. Compilez le projet avec 
-''' bash
- make 
-'''
+1. Compilez le projet avec:
+```bash
+make 
+```
 2. Pour lancer les programmes
     - Visualisateur (AST):
     ```bash
