@@ -1,0 +1,121 @@
+// Dessine un rectangle cyan et magenta
+Begin
+    // C
+    Int(a);
+    Int(aMin);
+    Int(aMax);
+    Int(b);
+    Int(bMin);
+    Int(bMax);
+    Int(c);
+    Int(cMin);
+    Int(cMax);
+
+    // L
+    Int(d);
+    Int(dMin);
+    Int(dMax);
+    Int(e);
+    Int(eMin);
+    Int(eMax);
+
+    // E
+    Int(f);
+    Int(fMin);
+    Int(fMax);
+    Int(g);
+    Int(gMin);
+    Int(gMax);
+    Int(h);
+    Int(hMin);
+    Int(hMax);
+    Int(i);
+    Int(iMin);
+    Int(iMax);
+    
+    Copy(aMin, 30);
+    Copy(bMin, 30);
+    Copy(cMin, 30);
+
+    Copy(dMin, 90);
+    Copy(eMin, 90);
+
+    Copy(fMin, 150);
+    Copy(gMin, 150);
+    Copy(hMin, 150);
+    Copy(iMin, 150);
+
+    Copy(aMax, 80);
+    Copy(bMax, 80);
+    Copy(cMax, 80);
+
+    Copy(dMax, 140);
+    Copy(eMax, 140);
+
+    Copy(fMax, 200);
+    Copy(gMax, 200);
+    Copy(hMax, 190);
+    Copy(iMax, 200);
+
+    Color(black);
+    Copy(black, Color(0, 0, 0));
+
+    Color(cyan);
+    Copy(cyan, Color(0, 255, 255));
+
+    Color(red);
+    Copy(red, Color(255, 0, 0));
+
+   
+
+    // C
+    For a From aMin To aMax Step 1 
+        Begin
+            Draw(Point(Pos(a, aMin), black))
+           
+        End;
+
+    For b From bMin To bMax Step 1 
+        Begin
+            Draw(Point(Pos(bMin, b), black))
+        End;
+
+     For c From cMin To cMax Step 1 
+        Begin
+            Draw(Point(Pos(c, cMax), black))
+        End;
+
+    // L
+    For d From dMin To dMax Step 1 
+        Begin
+            Draw(Point(Pos(dMin, d), cyan))
+        End;
+    
+    For e From eMin To eMax Step 1
+        Begin
+            Draw(Point(Pos(e, eMin), cyan))
+        End;
+
+    // E
+    For f From fMin To fMax Step 1
+        Begin
+            Draw(Point(Pos(fMin, f), red))
+        End;
+
+    For g From gMin To gMax Step 1
+        Begin
+            Draw(Point(Pos(g, gMin), red))
+        End;
+    
+    For h From hMin To hMax Step 1
+        Begin
+            Draw(Point(Pos(h, hMin+25), red))
+        End;
+    
+    For i From iMin To iMax Step 1
+        Begin
+            Draw(Point(Pos(i, iMin+50), red))
+        End
+    
+        
+End
