@@ -10,16 +10,16 @@ Ce projet est réalisé dans le cadre du cours de Compilation de la Licence Info
 '''
 2. Pour lancer les programmes
     - Visualisateur (AST):
-     ''' bash
-      ./visualiser.out  programs/good_examples/arg_list.stippled 
-    '''
-    <img src="readme/visualiser" width="300px">
+    ```bash
+    ./visualiser.out  programs/good_examples/arg_list.stippled 
+    ```
+    <img src="readme/visualiser.png" width="300px">
 
     - Interpreter et Analyseur:
-     ''' bash
-      ./interpreter.out  programs/good_examples/variables.stippled 
-    '''
-    <img src="readme/interpreter" width="300px">
+    ```bash
+     ./interpreter.out  programs/good_examples/variables.stippled 
+    ```
+    <img src="readme/interpreter.png" width="300px">
 
 
 
